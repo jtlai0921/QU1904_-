@@ -1,0 +1,18 @@
+﻿<html>
+<head>
+  <meta charset=utf-8"UTF-8">
+  <!--植入 Chunk app 中的 CSS-->
+  <link rel="stylesheet" href="app?_inline">
+  <!--植入 google_analytics 中的 JS 程式碼-->
+  <script src="./google_analytics.js?_inline"></script>
+  <!--異步載入 Disqus 評論-->
+  <script src="https://dive-into-webpack.disqus.com/embed.js" async></script>
+</head>
+<body>
+<div id="app"></div>
+<!--匯入 Chunk app 中的 JS-->
+<script src="app"></script>
+<!--Disqus 評論容器-->
+<div id="disqus_thread"></div>
+</body>
+</html>

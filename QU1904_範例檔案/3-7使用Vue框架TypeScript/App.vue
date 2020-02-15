@@ -1,0 +1,25 @@
+﻿<!--著色模版-->
+<template>
+  <h1>{{ msg }}</h1>
+</template>
+
+<!--型態描述-->
+<style scoped>
+  h1 {
+    color: red;
+  }
+</style>
+
+<!--元件邏輯-->
+<script lang="ts">
+  import Vue from "vue";
+
+  // 透過 Vue.extend 啟用 TypeScript 型態推斷
+  export default Vue.extend({
+    data() {
+      return {
+        msg: 'Hello,Webpack',
+      }
+    },
+  });
+</script>

@@ -1,0 +1,16 @@
+﻿{
+  "compilerOptions": {
+    "module": "commonjs",
+    // 編譯出的程式碼采用的模組規範
+    "target": "es5",
+    // 編譯出的程式碼采用 ES 的哪個版本
+    "sourceMap": true,
+    // 輸出 SourceMap 方便除錯
+    "jsx": "react"
+    // 支援 React
+  },
+  "exclude": [
+    // 不編譯這些目錄裡的檔案
+    "node_modules"
+  ]
+}

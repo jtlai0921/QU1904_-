@@ -1,0 +1,11 @@
+﻿{
+  "compilerOptions": {
+    // 建構出 ES5 版本的 JavaScript，與 Vue 的瀏覽器支援保持一致
+    "target": "es5",
+    // 開啟嚴格模式，這可以對 `this` 上的資料屬性進行更嚴格的推斷
+    "strict": true,
+    // 輸出的 JavaScript 采用 es2015 模組化，使 Tree Shaking 生效
+    "module": "es2015",
+    "moduleResolution": "node"
+  }
+}
